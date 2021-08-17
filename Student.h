@@ -1,9 +1,18 @@
-class Student {
+class Student 
+{
+  
   // private section
-  //    int studentId
-  //    name <- 20 charcters
+     private:
+     //int studentId
+         int studentId;
+     //name <- 20 characters  
+         char name[20];
   
   // public section
-  //    assignDetails() method declaration
-  //    display() method declaration
+      public:
+    // assignDetails() method declaration
+          void assignDetails(int tStudentId, char tName[]);
+     // display() method declaration     
+          void display();
+
 };
